@@ -97,10 +97,6 @@ ul {
   animation: move-bg 9s linear infinite;
 }
 
-.gradient img {
-  margin: 1.5rem 2rem;
-}
-
 @keyframes move-bg {
   0% {
     background-position: 0%;
@@ -159,46 +155,7 @@ p.font-details {
   background: var(--white-text-color);
 }
 
-.button {
-  font-family: var(--font);
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--pantone);
-  width: 200px;
-  border: 3px solid var(--pantone);
-  box-shadow: 0 0 9px 1px #3cdbc08a;
-  border-radius: 11px;
-  padding: 6px;
-  background: #403e3e;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
-  cursor: pointer;
-}
-
-.button:hover {
-  box-shadow: 0 0 10px 4px #3cdbc08a;
-}
-
-.button_left {
-  font-family: var(--font);
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--pantone);
-  width: 200px;
-  border: 3px solid var(--pantone);
-  box-shadow: 0 0 9px 1px #3cdbc08a;
-  border-radius: 11px;
-  padding: 6px;
-  background: none;
-  margin-bottom: 2rem;
-  cursor: pointer;
-}
-
-.button_left:hover {
-  box-shadow: 0 0 10px 4px #3cdbc08a;
-}
-
-.button1 {
+.button_dark {
   font-family: var(--font);
   font-size: 20px;
   font-weight: 600;
@@ -212,11 +169,11 @@ p.font-details {
   cursor: pointer;
 }
 
-.button1:hover {
+.button_dark:hover {
   box-shadow: 0 0 10px 5px #3cdbc08a;
 }
 
-.button1_left {
+.button_light {
   font-family: var(--font);
   font-size: 20px;
   font-weight: 600;
@@ -231,7 +188,7 @@ p.font-details {
   margin-left: 2rem;
 }
 
-.button1_left:hover {
+.button_light:hover {
   box-shadow: 0 0 9px 7px #3cdbc08a;
 }
 
